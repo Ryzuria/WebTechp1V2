@@ -35,3 +35,5 @@ $(document).ready(function(){
     $("#music")[0].pause();
   });
 });
+var music = document.getElementById("music");
+music.volume = 0.2;
