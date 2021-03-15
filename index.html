@@ -1,0 +1,82 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Rabbit Hole</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body style="margin: 0px;">
+    
+    <div class="mycontainer" style="margin: 0px;">
+        
+        <div class="main" id="section1">
+            <center>
+                <p style=" font-size: 2.2vw; color: white;padding-top: 22vw;font-family: 'Abel', sans-serif;">WELCOME TO
+                    THE RABBIT
+                    HOLE...
+                </p>
+                    <div class="bgm">
+                    <audio id="music" src="bgm.mp3" loop></audio>
+                        <button class="btn">
+                            <i class="far fa-play-circle" id="play-btn"></i>
+                            <i class="far fa-pause-circle"id="pause-btn"></i>
+                        </button>
+                    </div>
+            </center>
+            <center>
+                <div class="ar">
+                    <a href="#Ar1" style="position: sticky;"><img class="Ar1" src="asset/b-arrow@2x.png "
+                            style="width:6.5vw;transition:transform .2s ;"></a>
+                </div>
+            </center>
+        </div>
+        <div class="main" id="section2">
+            <div class="row" style="text-align: center;margin: 0;margin-bottom: 5vw;" id="Ar1" >
+                <div class="col-md-3" style="transition-duration: 0.25s;">
+                    <a href="#canvas"><img src="asset/download20210206220835@2x.png" class="img-fluid" onclick="myFunction(1)"></a>
+                </div>
+                <div class="col-md-3" style="transition-duration: 0.25s;">
+                    <a href="#canvas"><img src="asset/aaaaaa@2x.png" class="img-fluid" onclick="myFunction(2)"></a>
+                </div>
+                <div class="col-md-3" style="transition-duration: 0.25s;">
+                    <a href="#canvas"><img src="asset/download20210206221421@2x.png" class="img-fluid"onclick="myFunction(3)"></a>
+                </div>
+                <div class="col-md-3" style="transition-duration: 0.25s;">
+                    <a href="#canvas"><img src="asset/download20210206232330@2x.png" class="img-fluid"onclick="myFunction(4)"></a>
+                </div>
+                <center>
+                    <p style="font-size: 2.2vw;font-family: 'Abel', sans-serif;">Choose our Characters</p>
+                </center>
+            </div>
+                
+                
+                <div id="canvas"></div>
+                <center>
+                    <div class="ar2">
+                        <a href="#section1" style="position: sticky;"><img class="Ar1" src="asset/b-arrow_bd@2x.png"
+                                style="width:6vw;transition:transform .2s ;"></a>
+                    </div>
+                </center>
+            
+        </div>
+        
+    </div>
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+    <script src="js/Main.js"></script>
+</body>
+
+</html>
